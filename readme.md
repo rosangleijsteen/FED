@@ -64,15 +64,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
-
-
-## Intake (week 1)
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
-
 <img src="images/schermschets1.png" width="375px" alt="scherm1-home-onderverdeling">
 <img src="images/schermschets2.png" width="375px" alt="scherm2-spa-waters-met-smaak-onderverdeling">
 <img src="images/schermschets3.png" width="375px" alt="header-main en eerste section">
 <img src="images/schermschets3.png" width="375px" alt="section">
+
+## Intake (week 1)
+-uitwerken voor de kick-off werkgroep - begin van de eerste week-
+
 
 **Je startniveau:** -blauw-
 
