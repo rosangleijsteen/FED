@@ -63,6 +63,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
+!!!fix je h1 etz!!!
 
 <img src="images/schermschets1.png" width="375px" alt="scherm1-home-onderverdeling">
 <img src="images/schermschets2.png" width="375px" alt="scherm2-spa-waters-met-smaak-onderverdeling">
