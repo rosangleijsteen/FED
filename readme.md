@@ -48,11 +48,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1         | student 2          | student 3             |
+ Thijs Berrevoets.    Rosan Gleisjteen.    Zahra Ahmadi
+| ---               | ---                | ---                   |
+| Eerste afbeelding?| Hamburger menu     | horizontaal scrollen  |
+| an dat ook nog    | responsive afbeeldingen | nog een punt          |
+| ...               | ...                | ...                   |
 
 ### Verslag van meeting
 
