@@ -51,7 +51,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 | Thijs Berrevoets     | Zahra Ahmadi         | Rosan Gleijsteen   | student 4        |
 | ---            | ---                | ---          | ---              |
 | Eerste afbeelding?  | Horizontaal scrollen            | Hamburger menu    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| an dat ook nog | dit als er tijd is | responsive afbeeldingen | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
