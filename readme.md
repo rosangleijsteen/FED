@@ -62,7 +62,9 @@ Hier zie je hoe de website er nu uitziet als je de website op desktop ziet. Ik b
 
 
 ### Verslag van meeting
+De meeting verliep redelijk snel. Ik had niet extreem moeilijke struikelpunten. De studentenassistenten hadden voor het hamburger menu geadviseerd te kijken naar de JS codepen opdracht en uitgelegd dat ik op deze manier ook een class kan aannoemen zodra je op een button klikt. En dit zorgt dat een menu verschijnt.
 
+Verder kreeg ik als tip om te kijken naar CSS animaties als ik iets meer interactie in mijn website wil maken. En ze adviseerde het niet al te moeilijk te maken en vooral richt op een goede basis en vanuit daar verder kijken naar opties.
 
 
 ## Breakdownschets (week 1)
