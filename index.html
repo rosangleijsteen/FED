@@ -1,19 +1,61 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="author" content="spa">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>spa</title>
+
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
-	<h1>Howdy</h1>
-	<script src="scripts/script.js"></script>
+    <header>
+        <img src="images/logo.png" alt="Logo spa" id="logo" width="100%" height="100%">
+        <!--logo -->
+
+        <nav>
+            <ul>
+                <li> <a href="index.html" class="active">
+                        home
+                    </a></li>
+                <li><a href="producten.html">
+                        producten
+                    </a></li>
+                <li> <a href="spawater.html">
+                        spa water
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="blok1">
+            <h2>Waarom is het water van SPA zo puur?</h2>
+
+            <a href="spawater.html"><button type="button" name="button" class=buttonheader>Ontdek</button></a>
+        </section>
+
+        <div class="blok2">
+            <img src="images/item1.png" alt="item1" class="items" width="100%" height="100%">
+            <section class="blok">
+                <h3>Natuurlijke mineraalwater</h3>
+                <a href="spawater.html"><button type="button" name="button" class=buttonitem>Ontdek</button></a>
+            </section>
+
+        </div>
+        <div class="blok3">
+            <img src="images/item2.png" alt="item2" class="items" width="100%" height="100%">
+            <section class="blok">
+                <h3>Water met smaak</h3>
+                <a href="spawater.html"><button type="button" name="button" class=buttonitem>Ontdek</button></a>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="scripts/script.js"></script>
 </body>
-	
+
 </html>
