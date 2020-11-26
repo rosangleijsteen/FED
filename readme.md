@@ -38,7 +38,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik vond het best wel lastig om vanuit niks te beginnen aan een ontwerp. Hierin heb ik vooral gekeken naar de codepen opdrachten en vorige HTML en CSS opdrachten van school. 
+
+Wat goed ging was dat ik er uiteindelijk gelukkig uitkwam. Echter ging die niet zonder slag of stoot. Vooral het blok met de afbeelding links en de tekst en knop daarvan rechts vond ik nog redelijk lastig om te realiseren.
 
 **Screenshot(s):**
 
