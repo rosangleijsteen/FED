@@ -38,10 +38,10 @@ Wat goed ging was dat ik er uiteindelijk gelukkig uitkwam. Echter ging die niet 
 
 **Screenshot(s):**
 
-<img src="images/voortgang2.scherm.mobiel.png" width="375px" alt="scherm.voortgang2.scherm.mobiel">
+<img src="images/voortgang2.homescherm.mobiel.png" width="375px" alt="scherm.voortgang2.homescherm.mobiel">
 Hier zie je het mobiele scherm waar ik tot nu toe ben. Het menu zou ik misschien wat anders willen en mogelijk toch een hamburger menu van maken. Daarnaast is hij best lang als jij bijvoorbeeld kijk op een IPhone SE scherm. Vooral de blokken (rood en blauw) was nog best lastig om te realiseren. Maar dat is gelukt dus waarschijnlijk moet de rest (met misschien wat hulp) ook helemaal goed komen.
 
-<img src="images/voortgang2.scherm.desktop.png" width="375px" alt="scherm.voortgang2.scherm.desktop">
+<img src="images/voortgang2.homescherm.desktop.png" width="375px" alt="homescherm.voortgang2.scherm.desktop">
 Hier zie je hoe de website er nu uitziet als je de website op desktop ziet. Ik ben hier zeker niet ontevreden over echter kan er nog wat verbeteringen doorgevoerd worden. 
 
 ### Agenda voor meeting
@@ -68,10 +68,10 @@ Ik heb nu een redelijke basis staan hoewel er nog wel veel is wat ik moet doen. 
 
 **Screenshot(s):**
 
-<img src="images/voortgang2.homescherm.mobiel.png" width="375px" alt="scherm.voortgang2.homescherm.mobiel">
+<img src="images/voortgang.homescherm.mobiel.png" width="375px" alt="scherm.voortgang.homescherm.mobiel">
 Hier zie je dat ik extra blokken heb toegevoegd en het steeds meer een echte website begint te worden.
 
-<img src="images/voortgang2.homescherm.desktop.png" width="375px" alt="homescherm.voortgang2.scherm.desktop">
+<img src="images/voortgang.homescherm.desktop.png" width="375px" alt="homescherm.voortgang.scherm.desktop">
 Ik heb me ook veel gericht op de desktop versie. Hierbij heb ik de 3 blokken van de producten naast elkaar gezet, en geprobeerd de rest ook mooi te positioneren.
 
 ### Agenda voor meeting
