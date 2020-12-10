@@ -44,6 +44,10 @@ Hier zie je het mobiele scherm waar ik tot nu toe ben. Het menu zou ik misschien
 <img src="images/voortgang2.homescherm.desktop.png" width="375px" alt="homescherm.voortgang2.scherm.desktop">
 Hier zie je hoe de website er nu uitziet als je de website op desktop ziet. Ik ben hier zeker niet ontevreden over echter kan er nog wat verbeteringen doorgevoerd worden. 
 
+<img src="images/voortgang2.productscherm.mobiel.png" width="375px" alt="scherm.voortgang2.productscherm.mobiel">
+<img src="images/voortgang2.productscherm.desktop.png" width="375px" alt="homescherm.voortgang2.productscherm.desktop">
+Ik ben vervolgens ook verder gegaan met het uitwerken van het tweede scherm. Hierbij moet ik nog wat aanpassingen doorvoeren op basis van responsive ontwerp.
+
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
