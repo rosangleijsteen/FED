@@ -68,10 +68,10 @@ Ik heb nu een redelijke basis staan hoewel er nog wel veel is wat ik moet doen. 
 
 **Screenshot(s):**
 
-<img src="images/voortgang.homescherm.mobiel.png" width="375px" alt="scherm.voortgang.homescherm.mobiel">
+<img src="images/voortgang.scherm.mobiel.png" width="375px" alt="scherm.voortgang.homescherm.mobiel">
 Hier zie je dat ik extra blokken heb toegevoegd en het steeds meer een echte website begint te worden.
 
-<img src="images/voortgang.homescherm.desktop.png" width="375px" alt="homescherm.voortgang.scherm.desktop">
+<img src="images/voortgang.scherm.desktop.png" width="375px" alt="homescherm.voortgang.scherm.desktop">
 Ik heb me ook veel gericht op de desktop versie. Hierbij heb ik de 3 blokken van de producten naast elkaar gezet, en geprobeerd de rest ook mooi te positioneren.
 
 ### Agenda voor meeting
