@@ -38,10 +38,10 @@ Wat goed ging was dat ik er uiteindelijk gelukkig uitkwam. Echter ging die niet 
 
 **Screenshot(s):**
 
-<img src="images/voortgang.scherm.mobiel.png" width="375px" alt="scherm.voortgang.scherm.mobiel">
+<img src="images/voortgang2.scherm.mobiel.png" width="375px" alt="scherm.voortgang2.scherm.mobiel">
 Hier zie je het mobiele scherm waar ik tot nu toe ben. Het menu zou ik misschien wat anders willen en mogelijk toch een hamburger menu van maken. Daarnaast is hij best lang als jij bijvoorbeeld kijk op een IPhone SE scherm. Vooral de blokken (rood en blauw) was nog best lastig om te realiseren. Maar dat is gelukt dus waarschijnlijk moet de rest (met misschien wat hulp) ook helemaal goed komen.
 
-<img src="images/voortgang.scherm.desktop.png" width="375px" alt="scherm.voortgang.scherm.desktop">
+<img src="images/voortgang2.scherm.desktop.png" width="375px" alt="scherm.voortgang2.scherm.desktop">
 Hier zie je hoe de website er nu uitziet als je de website op desktop ziet. Ik ben hier zeker niet ontevreden over echter kan er nog wat verbeteringen doorgevoerd worden. 
 
 ### Agenda voor meeting
