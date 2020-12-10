@@ -30,12 +30,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
-
-
-## Voortgang 1 (week 3)
-
 ### Stand van zaken
 
 Ik vond het best wel lastig om vanuit niks te beginnen aan een ontwerp. Hierin heb ik vooral gekeken naar de codepen opdrachten en vorige HTML en CSS opdrachten van school. 
@@ -49,6 +43,36 @@ Hier zie je het mobiele scherm waar ik tot nu toe ben. Het menu zou ik misschien
 
 <img src="images/voortgang.scherm.desktop.png" width="375px" alt="scherm.voortgang.scherm.desktop">
 Hier zie je hoe de website er nu uitziet als je de website op desktop ziet. Ik ben hier zeker niet ontevreden over echter kan er nog wat verbeteringen doorgevoerd worden. 
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Thijs Berrevoets     | Zahra Ahmadi         | Rosan Gleijsteen   | student 4        |
+| ---            | ---                | ---          | ---              |
+| Geen vragen meer tonen van stand van zaken | Horizontaal scrollen            | Hamburger menu doet het niet goed   | even overleggen over responsive ontwerp   |
+| an dat ook nog | dit als er tijd is | responsive afbeeldingen | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
+
+
+### Verslag van meeting
+Naar mijn mening verliep de meeting voorspoedig. Ik vroeg me af of ik mijn website tot nu toe al redelijk responsive had gemaakt. Hierbij kreeg ik als tip dat ik een goed begin had en vooral goed moet kijken wanneer iets er niet meer mooi uitziet en veel loze ruimte heeft dat ik dan met media qeury meet breakpoints moet maken zodat dit beter staat. Dus als iets niet meer mooi is, dan oas je dit aan. Daarnaast vroeg ik me erg af wat de toegevoegde waarde is van een hamburger menu op mijn website omdat je natuurlijk maar 2 pagina's heb. Hierop kreeg ik de tip om te kijken wat een goede toevoeging is voor de website. Het is vooral belangrijk dat je kan aantonen dat je met JavaScript kan werken. En dat dit toegepast is in de website. Verder maakt het niet uit of dit een hamburger menu is. Of dat het een soort winkelwagen in dat je zodra je op een flesje klikt je een animatie krijg waarbij je product in een winkelwagetje gaat.
+
+
+
+## Voortgang 1 (week 3)
+
+### Stand van zaken
+
+Ik heb nu een redelijke basis staan hoewel er nog wel veel is wat ik moet doen. Ik vindt het belangrijk om te blijven richten op responsive en het toepassen van de media qeurys. Verder wilde ik ook graag een tweede pagina toevoegen en deze via de buttons en het menu te koppelen.
+
+**Screenshot(s):**
+
+<img src="images/voortgang2.homescherm.mobiel.png" width="375px" alt="scherm.voortgang2.homescherm.mobiel">
+Hier zie je dat ik extra blokken heb toegevoegd en het steeds meer een echte website begint te worden.
+
+<img src="images/voortgang2.homescherm.desktop.png" width="375px" alt="homescherm.voortgang2.scherm.desktop">
+Ik heb me ook veel gericht op de desktop versie. Hierbij heb ik de 3 blokken van de producten naast elkaar gezet, en geprobeerd de rest ook mooi te positioneren.
 
 ### Agenda voor meeting
 
