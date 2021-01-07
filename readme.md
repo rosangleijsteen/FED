@@ -23,6 +23,7 @@ Zeker ook denk ik omdat ik bij programmeren en internetstandaarden heel veel hul
 Verder ben ik vooral super trots dat ik in 10 weken van niks aan een mooie website ben gegaan en dat ik mezelf heb overtroffen want ik had eigenlijk begin van de blok er niet zoveel vertrouwen in dat ik dit nu allemaal zou kunnen.
 
 **Screenshot(s):**
+
 <img src="images/eindgesprek.homescherm.desktop.png" width="375px" alt="homescherm.eindgesprek.scherm.desktop">
 <img src="images/eindgesprek.homescherm.mobiel.png" width="375px" alt="homescherm.eindgesprek.scherm.mobiel">
 <img src="images/eindgesprek.detailscherm.desktop.png" width="375px" alt="detailscherm.eindgesprek.scherm.desktop">
