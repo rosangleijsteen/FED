@@ -15,7 +15,6 @@ Deze opdracht heeft me geholpen bij het maken van mijn hamburger menu.
 Verder betreft coderen heb ik ook heel veel vanuit mijn vorige gemaakte websites van programmeren en internetstandaarden.
 
 
-
 ## Eindgesprek (week 7/8)
 
 Ik had het onderschat. 
