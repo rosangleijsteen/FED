@@ -3,101 +3,166 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="spa">
+    <meta name="rosan gleijsteen" content="spa">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>spa</title>
 
     <link href="styles/style.css" rel="stylesheet">
+    <!--Link naar css -->
 </head>
 
 <body>
+    <!--Start header -->
     <header>
-        <img src="images/logo.png" alt="Logo spa" id="logo" width="100%" height="100%">
-        <!--logo -->
+        <a href="index.html">
+            <img src="images/logo.png" alt="Logo spa" id="logo" width="100%" height="100%">
+        </a>
 
         <nav>
+            <!-- met aria-hidden="true" 'verstop' je de button voor ze -->
+            <button aria-hidden="true">Menu</button>
             <ul>
-                <li> <a href="index.html" class="active">
-                        home
-                    </a></li>
-                <li><a href="waters-met-smaak.html">
-                        producten
-                    </a></li>
-                <li> <a href="waters-met-smaak.html">
-                        spa water
-                    </a></li>
+                <li class="active"><a>Home</a></li>
+                <li><a href="waters-met-smaak.html">producten</a></li>
+                <li><a href="waters-met-smaak.html">spa water</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="blok1">
-            <h2>Waarom is het water van SPA zo puur?</h2>
+        <!-- ------------------------- -->
+        <!--Start Intro -->
+        <section class="intro">
+            <h2 class="homepageintro">Waarom is het water van SPA zo puur?</h2>
+            <a href="waters-met-smaak.html"><button type="button" name="button" class=button1>Ontdek</button></a>
 
-            <a hrxef="waters-met-smaak.html"><button type="button" name="button" class=buttonheader>Ontdek</button></a>
         </section>
 
+        <!--Einde Intro -->
 
-        <div class="blokken">
-            <div class="blok2">
-                <img src="images/item1.png" alt="item1" class="items" width="100%" height="100%">
-                <section class="blok">
+        <!-- ------------------------- -->
+
+        <!--Start Producten -->
+
+        <div class="productblokken">
+
+            <!--Producten 1 -->
+            <div class="product1">
+                <img src="images/item1.png" alt="afbeelding natuurlijke mineraalwater flesjes" class="afbeeldingproduct"
+                    width="100%" height="100%">
+                <section class="content">
                     <h3>Natuurlijke mineraalwater</h3>
-                    <a href="waters-met-smaak.html"><button type="button" name="button" class=buttonitem>Ontdek</button></a>
+                    <a href="waters-met-smaak.html"><button type="button" name="button"
+                            class=button2>Ontdek</button></a>
                 </section>
 
             </div>
-            <div class="blok3">
-                <img src="images/item2.png" alt="item2" class="items" width="100%" height="100%">
-                <section class="blok">
+            <!--Producten 2 -->
+            <div class="product2">
+                <img src="images/item2.png" alt="afbeelding water met smaak flesjes" class="afbeeldingproduct"
+                    width="100%" height="100%">
+                <section class="content">
                     <h3>Water met smaak</h3>
-                    <a href="waters-met-smaak.html"><button type="button" name="button" class=buttonitem>Ontdek</button></a>
+                    <a href="waters-met-smaak.html"><button type="button" name="button"
+                            class=button2>Ontdek</button></a>
                 </section>
             </div>
-            <div class="blok4">
-                <img src="images/item3.png" alt="item3" class="items" width="100%" height="100%">
-                <section class="blok">
+            <!--Producten 3 -->
+            <div class="product3">
+                <img src="images/item3.png" alt="afbeelding fruit limonades flesjes" class="afbeeldingproduct"
+                    width="100%" height="100%">
+                <section class="content">
                     <h3>Fruit limonades</h3>
-                    <a href="waters-met-smaak.html"><button type="button" name="button" class=buttonitem>Ontdek</button></a>
+                    <a href="waters-met-smaak.html"><button type="button" name="button"
+                            class=button2>Ontdek</button></a>
                 </section>
             </div>
         </div>
-        <section class="blok5">
-            <h3>Het SPA-water</h3>
-            <p>
-                Het natuurlijke mineraalwater van SPA® wordt na een lange ondergrondse reis gewonnen in het hart van de Belgische Ardennen.
+        <!--Einde Producten -->
+
+        <!-- ------------------------- -->
+
+        <!--Start 3 blokken -->
+        <!--Start Spa water -->
+        <section class="blok1">
+            <h4>Het SPA-water</h4>
+            <p class="aangepastp">
+                Het natuurlijke mineraalwater van SPA® wordt na een lange ondergrondse reis gewonnen in het hart van de
+                Belgische Ardennen.
 
                 Bij SPA® doen we er daarom al 125 jaar alles aan om ons natuurgebied zo puur mogelijk te houden.
 
                 Want alleen met de puurste natuur krijgen we ons uiterst zuivere mineraalwater.
             </p>
 
-            <a hrxef="waters-met-smaak.html"><button type="button" name="button" class=buttonheader>lees meer over water</button></a>
+            <a hrxef="waters-met-smaak.html"><button type="button" name="button" class=button1>lees meer over
+                    water</button></a>
         </section>
+        <!--Einde Spa water -->
 
-        <section class="blok6">
-            <h3>Natuur</h3>
-            <p>Alles wat we je te bieden hebben, danken we aan de natuur.
+
+        <!--Start Natuur -->
+        <section class="blok2">
+            <h4>Natuur</h4>
+            <p class="aangepastp">Alles wat we je te bieden hebben, danken we aan de natuur.
 
                 Daarom is het zo belangrijk dat we alles doen om duurzaam te ondernemen en de natuur te beschermen.
 
                 Hoe we dat doen beschrijven we met de pijlers Puur, Groen, Lokaal en Samen.
             </p>
 
-            <a hrxef="waters-met-smaak.html"><button type="button" name="button" class=buttonheader>lees meer</button></a>
+            <a hrxef="waters-met-smaak.html"><button type="button" name="button" class=button1>lees meer</button></a>
         </section>
+        <!--Einde natuur -->
 
-        <section class="blok7">
-            <h3>Ons Verhaal</h3>
-            <p>Water is de drijvende kracht van het leven. En omdat jij daar met volle teugen van wilt kunnen genieten, zorgt SPA® al meer dan 125 jaar dat ons mineraalwater op z'n allerbeste is.
+        <!--Start Verhaal -->
+        <section class="blok3">
+            <h4>Ons Verhaal</h4>
+            <p class="aangepastp">Water is de drijvende kracht van het leven. En omdat jij daar met volle teugen van
+                wilt kunnen genieten, zorgt SPA® al meer dan 125 jaar dat ons mineraalwater op z'n allerbeste is.
             </p>
 
-            <a hrxef="waters-met-smaak.html"><button type="button" name="button" class=buttonheader>lees meer over SPA</button></a>
+            <a hrxef="waters-met-smaak.html"><button type="button" name="button" class=button1>lees meer over
+                    SPA</button></a>
         </section>
+        <!--Einde  verhaal -->
+        <!--Einde 3 blokken -->
     </main>
+    <!--Start footer -->
+    <footer>
+        <img src="images/logo.png" alt="Logo spa" id="logo" width="100%" height="100%">
 
+        <div class="footercontent">
+            <div class="footeritems">
+                <h5>Spadel Nederland B.V.</h5>
+                <p>Brieltjenspolder 28D
+                    4921 PJ Made
+                    Nederland
+                    BTW: NL007271542B01
+                    KvK: 30083540</p>
+            </div>
+            <div class="footeritems">
+                <h5>Contact</h5>
+                <p>Klantenservice
+                    Jobs bij Spadel</p>
+            </div>
+            <div class="footeritems">
+                <h5>Onze websites</h5>
+                <p>Spadel N.V.
+                    Thermesdespa.com</p>
+            </div>
+            <div class="footeritems">
+                <h5>Bezoek ons</h5>
+                <p>Bezoekerscentrum L’Eaudyssée de SPA®
+                    Rue Auguste Laporte, 4900 Spa, België
+                    www.eaudysseedespa.be</p>
+            </div>
+        </div>
+    </footer>
+    <!--Einde footer -->
 
     <script src="scripts/script.js"></script>
+    <!--Link naar javascript -->
 </body>
 
 </html>

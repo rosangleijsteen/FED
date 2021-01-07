@@ -3,68 +3,183 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="spa">
+    <meta name="rosan gleijsteen" content="spa">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>spa</title>
 
     <link href="styles/style.css" rel="stylesheet">
+    <!--Link naar css -->
 </head>
 
 <body>
+    <!--Start header -->
     <header>
-        <img src="images/logo.png" alt="Logo spa" id="logo" width="100%" height="100%">
-        <!--logo -->
-
+        <a href="index.html">
+            <img src="images/logo.png" alt="Logo spa" id="logo" width="100%" height="100%">
+        </a>
         <nav>
+            <!-- met aria-hidden="true" 'verstop' je de button voor ze -->
+            <button aria-hidden="true">Menu</button>
             <ul>
-                <li> <a href="index.html" class="active">
-                        home
-                    </a></li>
-                <li><a href="producten.html">
-                        producten
-                    </a></li>
-                <li> <a href="spawater.html">
-                        spa water
-                    </a></li>
+                <li> <a href="index.html">home</a></li>
+                <li><a href="waters-met-smaak.html">producten</a></li>
+                <li class="active"> <a>spa water</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="blok1product">
-            <img src="images/producten.png" alt="item1" class="item" width="100%" height="100%">
+        <!-- ------------------------- -->
+        <!--Start Productenafbeelding -->
+        <section class="productenafbeeldingblok">
+            <img src="images/producten.png" alt="item1" class="productenafbeelding" width="100%" height="100%">
         </section>
+        <!--Einde Productenafbeelding -->
 
-        <section class="blok2product">
-            <h3 class="smaakblok2">SPA® TOUCH: Puur water met een vleugje smaak</h3>
-            <p class="kleur">Geef een extra touch aan je dag met onze gearomatiseerde waters en laat je verrassen door de heerlijke combinatie van het pure mineraalwater uit het hart van de Venen met een toets natuurlijke aroma’s. Kies uit een waaier van heerlijke bruisende én niet-bruisende smaken.
+        <!--Start Spa touch intro -->
+        <section class="spatouchintro">
+            <h2 class="headerpag2intro">SPA® TOUCH: Puur water met een vleugje smaak</h2>
+            <p class="tekstmidden">Geef een extra touch aan je dag met onze gearomatiseerde waters en laat je verrassen
+                door de heerlijke combinatie van het pure mineraalwater uit het hart van de Venen met een toets
+                natuurlijke aroma’s. Kies uit een waaier van heerlijke bruisende én niet-bruisende smaken.
             </p>
-            <a hrxef="index.html"><button type="button" name="button" class=buttonblok>proef ze allemaal!</button></a>
+            <a hrxef="index.html"><button type="button" name="button" class=button3>proef ze allemaal!</button></a>
         </section>
+        <!--Einde Spa touch intro -->
 
-        <div class="blokvideo">
-            <section>
-                <h3 class="smaakblok2">SPA® TOUCH</h3>
-                <p class="kleur">Hoe je dag er ook uitziet of waar je ook zin in hebt, er is een SPA® TOUCH voor elke smaak! Subtiele smaken met of zonder bubbels: altijd verrassend en heerlijk verfrissend. Deze unieke waters bevatten geen calorieën, geen suiker en geen zoetstoffen maar wel 100 % natuurlijke aroma’s.
+        <!--Start Spa touch -->
+        <section class="spatouch">
+            <div class="contentpag2">
+                <h3 class="headerpag2touch">SPA® TOUCH</h3>
+                <p>Hoe je dag er ook uitziet of waar je ook zin in hebt, er is een SPA® TOUCH voor elke smaak! Subtiele
+                    smaken met of zonder bubbels: altijd verrassend en heerlijk verfrissend. Deze unieke waters bevatten
+                    geen calorieën, geen suiker en geen zoetstoffen maar wel 100 % natuurlijke aroma’s.
                 </p>
-                <a href="index.html"><button type="button" name="button" class=buttonblok>Ontdek je smaak!</button></a>
+                <a href="index.html"><button type="button" name="button" class=button3>Ontdek je smaak!</button></a>
+            </div>
+            <video preload="auto" muted="" autoplay="" loop="" class="video">
+                <source src="images/machine-fruit.mp4" type="video/mp4">
+            </video>
+        </section>
+        <!--Einde Spa touch -->
 
-                <div class="blokvideo">
-                    <video preload="auto" muted="" autoplay="" loop="" class="video">
-                        <source src="images/machine-fruit.mp4" type="video/mp4">
-                    </video>
+        <!--Start Bruisend-->
+        <section class="spabruisend">
+            <img src="images/item2.png" alt="afbeelding natuurlijke mineraalwater flesjes" class="afbeeldingbruisend"
+                width="100%" height="100%">
+            <div class="contentbruisend">
+                <h3 class="headerpag2touch">SPA® TOUCH bruisend en niet-bruisend</h3>
+                <p>Of je nu op zoek bent naar bruisende verfrissing of jezelf wil hydrateren zonder bubbels: breng wat
+                    afwisseling in je dag met de verrassende SPA® TOUCH smaken. Kies uit een gevarieerd aanbod van 11
+                    verschillende bruisende en niet-bruisende smaken of ontdek ze allemaal!
+                </p>
+                <a href="index.html"><button type="button" name="button" class=button3>Laat je verrassen!</button></a>
+            </div>
+        </section>
+        <!--Einde Bruisend-->
 
-                </div>
+        <!--Start Smaak-->
+        <section class="spasmaak">
+            <h3 class="headerpag2smaak">Welke smaak verkies jij?</h3>
+            <div class=afbeeldingensmaak>
+                <!--Lime jasmine-->
+                <img src="images/bottle-lime-jasmine-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+                <!--orange-cardamon-->
+                <img src="images/bottle-orange-cardamon-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+                <!--Raspberry apple-->
+                <img src="images/bottle-raspberry-apple-50cl.png" class="afbeeldingsmaak" width="100%" height="100%">
+                <!--Strawberry mint-->
+                <img src="images/bottle-strawberry-mint-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+                <!--blackcurrant-->
+                <img src="images/bottle-blackcurrant-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+                <!--Cocunot-->
+                <img src="images/bottle-coconut-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+                <!--Grapefruit-->
+                <img src="images/bottle-grapefruit-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+                <!--Lemon-->
+                <img src="images/bottle-lemon-50cl.png" class="afbeeldingsmaak" width="100%" height="100%">
+                <!--Mint-->
+                <img src="images/bottle-mint-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+                <!--peach-->
+                <img src="images/bottle-peach-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+                <!--pineapple-ginger-->
+                <img src="images/bottle-pineapple-ginger-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+                <!--watermelonkiwi-->
+                <img src="images/bottle-watermelonkiwi-50cl.png" alt="afbeelding natuurlijke mineraalwater flesjes"
+                    class="afbeeldingsmaak" width="100%" height="100%">
+            </div>
+        </section>
+        <!--Einde smaak-->
+        <!--Start Producten -->
+        <!--Producten 1 -->
+        <div class="productblokken">
+            <div class="product1">
+                <img src="images/item1.png" alt="afbeelding natuurlijke mineraalwater flesjes" class="afbeeldingproduct"
+                    width="100%" height="100%">
+                <section class="content">
+                    <h3>Natuurlijke mineraalwater</h3>
+                    <a href="waters-met-smaak.html"><button type="button" name="button"
+                            class=button2>Ontdek</button></a>
+                </section>
+            </div>
 
-
-            </section>
-
+            <!--Producten 3 -->
+            <div class="product3">
+                <img src="images/item3.png" alt="afbeelding fruit limonades flesjes" class="afbeeldingproduct"
+                    width="100%" height="100%">
+                <section class="content">
+                    <h3>Fruit limonades</h3>
+                    <a href="waters-met-smaak.html"><button type="button" name="button"
+                            class=button2>Ontdek</button></a>
+                </section>
+            </div>
         </div>
+        <!--Einde Producten -->
 
     </main>
+    <!--Start footer -->
+    <footer>
+        <img src="images/logo.png" alt="Logo spa" id="logo" width="100%" height="100%">
 
-
+        <div class="footercontent">
+            <div class="footeritems">
+                <h5>Spadel Nederland B.V.</h5>
+                <p>Brieltjenspolder 28D
+                    4921 PJ Made
+                    Nederland
+                    BTW: NL007271542B01
+                    KvK: 30083540</p>
+            </div>
+            <div class="footeritems">
+                <h5>Contact</h5>
+                <p>Klantenservice
+                    Jobs bij Spadel</p>
+            </div>
+            <div class="footeritems">
+                <h5>Onze websites</h5>
+                <p>Spadel N.V.
+                    Thermesdespa.com</p>
+            </div>
+            <div class="footeritems">
+                <h5>Bezoek ons</h5>
+                <p>Bezoekerscentrum L’Eaudyssée de SPA®
+                    Rue Auguste Laporte, 4900 Spa, België
+                    www.eaudysseedespa.be</p>
+            </div>
+        </div>
+    </footer>
+    <!--Einde footer -->
     <script src="scripts/script.js"></script>
+    <!--Link naar javascript -->
 </body>
 
 </html>

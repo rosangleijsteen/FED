@@ -1,4 +1,5 @@
 /* CSS Document */
+/* Start Algemeen */
 *,
 html {
     margin: 0;
@@ -13,45 +14,57 @@ body {
     flex-grow: 1;
 }
 
-header {
-    background-color: rgba(0, 0, 0, .6);
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    justify-content: center;
-    position: fixed;
+a:hover {
+    color: #6b7986;
 }
 
-#logo {
-    width: 5em;
-    padding: 1em .5em;
-}
-
-header nav {
-    display: flex;
-    align-items: center;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    font-size: 1em;
-}
-
-header nav li {
-    min-width: 5em;
-}
-
-header nav a {
+/* Start typografie */
+/* h2 {
+    font-weight: 100;
+    margin: 6em 1em 1em 1em;
     color: white;
-    text-decoration: none;
-    outline: none;
-    display: block;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+} */
+
+h3 {
     text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 1.3em;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 2em;
     padding: 1em;
 }
 
-button {
+h5 {
+    text-align: start;
+    font-weight: 600;
+    color: #6b7986;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+p {
+    text-align: start;
+    font-weight: 300;
+    color: #263746;
+    font-size: 1.1em;
+    margin: 2em, 0em, 2em, 2em;
+    max-width: 50em;
+}
+
+/* einde typografie */
+
+/* Start buttons */
+.button1 {
+    /* Eerste button */
     color: black;
     text-transform: uppercase;
     margin-top: 1em;
@@ -64,58 +77,8 @@ button {
     border-radius: 90px;
 }
 
-/* tot hier is de header */
-
-
-/* Start eerste blok */
-
-.blok1 {
-    flex-grow: 1;
-    background-image: url("../images/headerafbeelding.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    height: 45em;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-h2 {
-    font-weight: 100;
-    margin: 7em 1em 2em 1em;
-    color: white;
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-}
-
-/* Eind eerste blok */
-
-/* Start blokken 2 tot en met 4 */
-
-
-/* tekst blokken */
-h3 {
-    text-align: center;
-    font-weight: 600;
-    color: white;
-    font-size: 1.5em;
-    padding: 1em;
-}
-
-/* afbeelding blokken */
-.items {
-    height: 60vw;
-    margin-bottom: -1.5em;
-    width: auto;
-    padding: 1em 1em 0 1.5em;
-
-}
-
-/* knop blokken */
-.buttonitem {
+.button2 {
+    /* Tweede button */
     color: white;
     text-transform: uppercase;
     margin-top: 1em;
@@ -128,7 +91,175 @@ h3 {
     border-radius: 90px;
 }
 
-.blok2 {
+.button3 {
+    /* Derde button */
+    color: White;
+    text-transform: uppercase;
+    margin-top: 2em;
+    padding: .8em 2em;
+    background-color: #263746;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 900;
+    border: none;
+    border-radius: 90px;
+}
+
+/* Einde buttons */
+/* Einde algemeen */
+
+/*  ------------------------- */
+
+/* Start header */
+header {
+    padding: 0 .75em;
+    background-color: #263746;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    flex-wrap: wrap;
+}
+
+/* Start logo */
+#logo {
+    width: 5em;
+    padding: 1em .5em;
+    margin: .3em 5em .5em 5em;
+}
+
+/* Einde logo */
+
+/* Start menu */
+nav {
+    order: -1;
+}
+
+/*  menu knop */
+nav button {
+    position: relative;
+    width: 6em;
+    height: 3em;
+    font-size: 1em;
+    background-color: #6b7986;
+    border: none;
+    border-radius: 90px;
+    appearance: none;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    font-size: .9em;
+    z-index: 100;
+}
+
+/*  de streepjes van het menu */
+nav button::before {
+    content: "\2630 ";
+    display: inline-block;
+    width: 1em;
+    transform: scale(.75);
+}
+
+/*  kruisje in de knop in het uiklap menu  */
+nav.toonMenu button::before {
+    content: "\274C";
+}
+
+/*  uitklap menu  */
+nav ul {
+    padding: 6em 0 0;
+    background: #263746;
+    list-style: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: translatex(-100%);
+    transition: .5s;
+    z-index: 50;
+}
+
+/*  tonen van het menu  */
+nav.toonMenu ul {
+    transform: translatex(0);
+}
+
+/*  knoppen naar de andere pagina's  */
+li a {
+    display: block;
+    padding: 1em 1em 1em 3.5em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+}
+
+/*  actieve pagina in menu */
+li.active a {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+/* Einde menu */
+/* Einde header */
+
+/*  ------------------------- */
+/*  ____________________HOMEPAGINA____________________ */
+
+/* Start Intro */
+.intro {
+    flex-grow: 1;
+    background-image: url("../images/headerafbeelding.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 37em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.homepageintro {
+    font-weight: 100;
+    margin: 6em 1em 1em 1em;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Einde Intro */
+
+/*  ------------------------- */
+
+/* Start producten */
+
+/* afbeelding blokken */
+.afbeeldingproduct {
+    height: 60vw;
+    margin-bottom: -1.5em;
+    width: auto;
+    padding: 1em 1em 0 1.5em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.productblokken {
+    display: flex;
+}
+
+.product1 {
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -136,9 +267,11 @@ h3 {
     background-image: linear-gradient(to right, #a9cdee 0%, #4d99d3 100%);
     background-repeat: no-repeat;
     flex-grow: 1;
+    max-width: 100vw;
+    padding: 2em;
 }
 
-.blok3 {
+.product2 {
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -146,9 +279,10 @@ h3 {
     background-image: linear-gradient(to right, #e8908e 0%, #e6675e 100%);
     background-repeat: no-repeat;
     flex-grow: 1;
+    padding: 2em;
 }
 
-.blok4 {
+.product3 {
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -156,29 +290,17 @@ h3 {
     background-image: linear-gradient(to right, #9fd0aa 0%, #69b97a 100%);
     background-repeat: no-repeat;
     flex-grow: 1;
+    padding: 2em;
 }
 
+/* Einde producten */
 
+/*  ------------------------- */
 
-@media (min-width:60em) and (min-height:40em) {
-    .blokken {
-        display: flex;
-        width: 100vw;
-        height: 25em;
+/*  ------------------------- */
 
-    }
-}
-
-@media (min-width:60em) and (min-height:40em) {
-    .items {
-        display: flex;
-        height: 20em;
-
-    }
-}
-
-
-p {
+/* Start 3 blokken */
+.aangepastp {
     text-align: center;
     font-weight: 300;
     color: white;
@@ -187,70 +309,84 @@ p {
     max-width: 30em;
 }
 
-.blok5 {
+.blok1 {
     flex-grow: 1;
     background-image: url("../images/achtergrondafbeelding5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    height: 25em;
+    height: 35em;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.blok6 {
+.blok2 {
     flex-grow: 1;
     background-image: url("../images/achtergrondafbeelding6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    height: 25em;
+    height: 35em;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.blok7 {
+.blok3 {
     flex-grow: 1;
     background-image: url("../images/achtergrondafbeelding7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    height: 25em;
+    height: 35em;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-@media (min-width:60em) and (min-height:40em) {
-    .blok5 {
-        height: 40em;
+/* Einde 3 blokken */
 
-    }
+/* Start footer */
+footer {
+    display: flex;
+    background-color: #263746;
+    flex-direction: column;
+    color: white;
+    padding: 2em;
+    align-items: center;
 }
 
-@media (min-width:60em) and (min-height:40em) {
-    .blok6 {
-        height: 40em;
-
-    }
+footer p {
+    margin: .5em;
+    line-height: 1.2em;
+    color: white;
 }
 
-@media (min-width:60em) and (min-height:40em) {
-    .blok7 {
-        height: 40em;
+.footeritems {
+    flex-direction: column;
+    max-width: 25vw;
+    margin: 2em;
+}
 
-    }
+.footercontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 90vw;
 }
 
 
-/* Productpagina */
+/* Einde footer */
 
-.blok1product {
+/*  ------------------------- */
+/*  ____________________PRODUCTPAGINA____________________ */
+
+/* Start Productenafbeelding */
+.productenafbeeldingblok {
     flex-grow: 1;
     background-image: url("../images/headerafbeelding-2.jpg");
     background-repeat: no-repeat;
@@ -261,57 +397,359 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
-.blok2product {
+.productenafbeelding {
+    width: 80vw;
+    height: auto;
+}
+
+/* Einde Productenafbeelding */
+
+/* Start Spa touch intro */
+.spatouchintro {
     flex-grow: 1;
     background-color: white;
     display: flex;
-    height: 45em;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10em 2em 10em 2em;
 }
 
-.kleur {
-    color: #1a3341;
-}
 
-.smaakblok2 {
-    color: #1a3341;
-    font-size: 2.5em;
+
+.headerpag2intro {
     font-weight: 500;
-
+    color: #263746;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 2em;
 }
 
-.item {
-    width: 80vw;
-    height: auto;
-
+.tekstmidden {
+    text-align: center;
 }
 
-.buttonblok {
-    background-color: #1a3341;
-    color: white;
-    margin: 1em;
-}
 
-/*nieuwblok*/
+/* Einde Spa touch intro */
 
-.blokvideo {
-    flex-grow: 1;
+
+/* Start Spa touch*/
+.spatouch {
     background-image: url("../images/headerafbeelding-3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contentpag2 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10em;
+}
+
+.headerpag2touch {
+    font-weight: 500;
+    margin: 1em 1em 1em 0em;
+    color: #263746;
+    font-size: 3em;
+    text-align: start;
 }
 
 .video {
-    width: 80vw;
-    height: 100%;
+    width: auto;
+    max-height: 15em;
     border-radius: 2em;
-    margin: 1em;
+    margin: 10em;
 }
+
+/* Einde Spa touch*/
+
+/* Start Spa bruisend*/
+.spabruisend {
+    flex-grow: 1;
+    background-image: url("../images/headerafbeelding-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contentbruisend {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.headerpag2touch {
+    font-weight: 500;
+    margin: 1em 1em 1em 0em;
+    color: #263746;
+    font-size: 3em;
+    text-align: start;
+}
+
+.afbeeldingbruisend {
+    height: 35em;
+    width: auto;
+    margin: 10em;
+}
+
+/* Einde Spa bruisend*/
+
+/* Start Spa Smaak*/
+.spasmaak {
+    flex-grow: 1;
+    background-image: linear-gradient(to right, #ffffff 0%, #cfe4f3 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.headerpag2smaak {
+    font-weight: 500;
+    margin: 1em;
+    color: #263746;
+    font-size: 3em;
+    text-align: start;
+}
+
+.afbeeldingsmaak {
+    height: 15em;
+    width: auto;
+    margin: 1.5em;
+    transition: 0.4s;
+}
+
+.afbeeldingsmaak:hover {
+    height: 18em;
+    width: auto;
+    margin: 2em;
+}
+
+/* _______________________________*/
+
+
+
+
+/*  ------------------------- */
+/*  ____________________RESPONSIVE____________________ */
+
+
+/*  Start responsive menu */
+@media (min-width:64em) {
+    nav {
+        order: 0;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        position: relative;
+        padding: 0;
+        transform: none;
+        background: none;
+        display: flex;
+    }
+
+    nav a {
+        border: none;
+    }
+}
+
+@media (max-width:30em) {
+    #logo {
+        margin-left: 0.8em;
+    }
+}
+
+
+
+/*  Einde responsive menu */
+
+/*  Start intro responsive */
+@media (min-width:60em) and (min-height:40em) {
+    .intro {
+        height: 60em;
+    }
+}
+
+/*  Einde intro responsive*/
+
+/* Start responsive producten */
+@media (min-width:60em) and (min-height:40em) {
+    .productblokken {
+        display: flex;
+        width: 100vw;
+        height: 25em;
+    }
+}
+
+@media (min-width:50em) and (min-height:30em) {
+    .afbeeldingproduct {
+        display: flex;
+        height: 15em;
+    }
+}
+
+/* Einde responsive producten */
+
+/*  Start 3 blokken */
+@media (min-width:60em) and (min-height:40em) {
+    .blok1 {
+        height: 60em;
+    }
+
+    h4 {
+        font-size: 4em;
+    }
+
+    .aagepastp {
+        line-height: 2em;
+        font-size: 1.2em;
+    }
+
+    .blok2 {
+        height: 60em;
+    }
+
+    .blok3 {
+        height: 60em;
+    }
+}
+
+/*  Einde 3 blokken */
+
+/*  ----------PRODUCTPAGINA----------- */
+
+/*  Start responsive productafbeeldingblok */
+
+@media (max-width: 73em) {
+    .productblokken {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:58em) {
+    .productenafbeeldingblok {
+        height: 30em;
+    }
+
+    .productenafbeelding {
+        width: 95vw;
+        height: auto;
+    }
+
+    .spatouch,
+    .spabruisend {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contentpag2,
+    .contentbruisend {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .headerpag2touch {
+        text-align: center;
+        margin: 1em;
+    }
+
+    .contentpag2 p,
+    .contentbruisend p {
+        text-align: center;
+        padding: 0em 1em;
+    }
+
+    .button3 {
+        margin-bottom: 1em;
+    }
+
+    .video {
+        border-radius: 2em;
+    }
+
+    .afbeeldingbruisend {
+        height: 20em;
+        margin: 0;
+        padding: 2em;
+    }
+
+    .headerpag2smaak {
+        text-align: center;
+    }
+
+    .afbeeldingensmaak {
+        width: 90vw;
+        text-align: center;
+    }
+
+    .product1 .afbeeldingproduct,
+    .product3 .afbeeldingproduct {
+        padding: 0em;
+    }
+
+}
+
+@media (max-width: 56em) {
+    footer {
+        display: flex;
+        background-color: #263746;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+    }
+
+    footer>#logo {
+        padding: 0em;
+        margin: 0em;
+    }
+
+    footer p {
+        margin: 1em;
+        line-height: 1.2em;
+        color: white;
+        max-width: 70vw;
+    }
+
+    .footercontent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .footeritems {
+        flex-direction: column;
+        max-width: 90vw;
+        margin: 0em;
+    }
+}
+
+@media (min-width: 47em) {
+    .footercontent {
+        flex-direction: row;
+    }
+}
+
+
+/*  Einde responsive productafbeeldingblok */
