@@ -20,12 +20,24 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -screenshot(s) van je eindresultaat-
 
+## Voortgang 4 (week 7)
 
+Ik ging zelfstandig verder met het verder ontwikkelen van de website. En dat ging zeker niet over roze geuren en manen schijnen. Wat liep ik toch veel vast. Gelukkig door heel veel oefenen en poberen heb ik toch een mooi eindresultaat kunnen halen. Hieronder zie je een schermafbeelding van de status waarbij ik vastliep met bepaalde responsive onderdelen en met het hamburger menu. 
+
+<img src="images/voortgang4.homescherm.mobiel-1.png" width="375px" alt="scherm.voortgang4.homescherm.mobiel">
+<img src="images/voortgang4.homescherm.mobiel-2.png" width="375px" alt="scherm.voortgang4.homescherm.mobiel">
+__
+<img src="images/voortgang4.detailscherm.desktop.png" width="375px" alt="detailscherm.voortgang4.scherm.desktop">
+<img src="images/voortgang4.detailscherm.mobiel.png" width="375px" alt="detailscherm.voortgang4.homescherm.mobiel">
+
+Ik werdt eenbeetje boos omdat niks werkte dus ik had even de helft los getrokken en eerst gefocust op alleen de homepagina en op basis daarvan ben ik weer verder gegaan met het repareren van de detail pagina.
+
+Hoe ik dit heb opgelost:
+Voor het hamburger menu ben ik opnieuw de opdracht gaan uitvoeren van Mediaqueries 3 en door deze stap voor stap door te nemen heb ik mijn hamburger menu kunnen maken. Vervolgens ging ik goed mijn code doorlopen wat nou het pobleem was bij het responsive maken. Toen kwam ik er achter dat ik alle media queries in elkaar gezet had omdat ik de bovenste niet goed had afgesloten. Hierdoor dacht ik dat hij het deed, want al ik een kleur aanpaste deed hij het wel. Maar hierbij klopte de breakpoints niet (omdat mijn code steeds naar de bovenste keek). Maar toen ik dit eindelijk gevonden had kon ik gelukkig weer verder.
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
+Wegens hoge drukte tijds deze weken met andere vakken hebben we niet veel voortgang kunnen bespreken tijdens dit uur met de studenten assistenten. 
 
 
 ## Voortgang 2 (week 5)
