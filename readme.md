@@ -6,19 +6,37 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1.https://www.spa.nl/
+Al mijn beeldmateriaal komt van de website van Spa
+2.www.google.com
+Dit was mijn grootste vriend tijdens het coderen
+3. https://codepen.io/rosangleijsteen/pen/qBaKZzP
+Deze opdracht heeft me geholpen bij het maken van mijn hamburger menu.
+Verder betreft coderen heb ik ook heel veel vanuit mijn vorige gemaakte websites van programmeren en internetstandaarden.
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik had het onderschat. 
+Zeker ook denk ik omdat ik bij programmeren en internetstandaarden heel veel hulp vroeg aan medestuderen. Maar ik had voor mezelf besloten dat ik wilde coderen dus dat ik deze website dan ook in mijn eentje (met de hulp van internet) ging maken. Dus ging zeker niet zonder slag of stoot. Maar gelukkig merkte ik wel door heel veel proberen herhalen en oefenen je daadwerkelijk beter wordt. Waarbij ik in het begin bijvoorbeeld telkens weer flexbox froggy ging spelen of even ging googlen hoe dat nou zat merkt ik nu dat ik dat toch ineens uit mijn hoofd begon te doen. 
+
+Verder ben ik vooral super trots dat ik in 10 weken van niks aan een mooie website ben gegaan en dat ik mezelf heb overtroffen want ik had eigenlijk begin van de blok er niet zoveel vertrouwen in dat ik dit nu allemaal zou kunnen.
 
 **Screenshot(s):**
+<img src="images/eindgesprek.homescherm.desktop.png" width="375px" alt="homescherm.eindgesprek.scherm.desktop">
+<img src="images/eindgesprek.homescherm.mobiel.png" width="375px" alt="homescherm.eindgesprek.scherm.mobiel">
+<img src="images/eindgesprek.detailscherm.desktop.png" width="375px" alt="detailscherm.eindgesprek.scherm.desktop">
+<img src="images/eindgesprek.detailscherm.mobiel.png" width="375px" alt="detailscherm.eindgesprek.homescherm.mobiel">
 
--screenshot(s) van je eindresultaat-
+## Toegankelijkheid verslag
+
+Ik dacht dat ik het redelijk goed in elkaar had gezet. Tot je die vocie over aan zet echt denk huh wat bedoeld hij nu? 
+Het was ten eerste ontzettend choatisch. Ik wist niet goed waar ik zat en wat het nou precies moest zijn. Ik kwam ook super veel uit op knoppen van chorme en tekstvlakken waar ik dan wat ik kon typen. 
+
+Vooral denk ik dat ik mijn website kan verderen door echt goed naar die headinglevels te kijken en de afbeeldingen nog meer te omschrijven wat het nou precies is. 
+Verder had ik wel het idee dat de knoppen wel lekker werkte hoewel het best fijn zou zijn als je ook meteen weer waar hij naar navigieerd en niet alleen weet wat er op staat.
+
 
 ## Voortgang 4 (week 7)
 
