@@ -96,6 +96,7 @@ p {
     color: White;
     text-transform: uppercase;
     margin-top: 2em;
+    margin-bottom: 2em;
     padding: .8em 2em;
     background-color: #263746;
     text-decoration: none;
@@ -686,6 +687,7 @@ footer p {
 
     .video {
         border-radius: 2em;
+        width: 20em;
     }
 
     .afbeeldingbruisend {
@@ -719,7 +721,7 @@ footer p {
         align-items: center;
     }
 
-    footer>#logo {
+    footer > #logo {
         padding: 0em;
         margin: 0em;
     }
